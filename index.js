@@ -224,6 +224,9 @@ const handlers = {
             'topeka capital journal':'breakfast table times: topeka capital journal',
             'capital journal':'breakfast table times: topeka capital journal',
             'topeka newspaper':'breakfast table times: topeka capital journal',
+            'pittsburg':'pittsburg today',
+            'pittsburgh':'pittsburg today',
+            'pittsburgh today':'pittsburg today',
         };
         programTitle = programTitle.toLowerCase();
         if (programTitle in titleReplacements) {
