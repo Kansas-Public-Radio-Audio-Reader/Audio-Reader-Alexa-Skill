@@ -17,7 +17,7 @@ const https = require('https');
 const APP_ID = 'amzn1.ask.skill.8f10c20e-4de7-43de-b1b9-e6a3e1da1bfd';  
 const STREAMURL = "https://kansaspublicradio.org/audioreader.m3u";
 const ARCHIVEURL = 'https://kprprdarswb.cc.ku.edu/archive/'; // need trailing slash, needs to be HTTPS
-var dataSourceURL =   'https://kansaspublicradio.org/widgets/audio-reader/ar-data.json';
+var dataSourceURL =   'https://portal.kansaspublicradio.org/widgets/audio-reader/ar-data.json';
 
 // constants
 const languageStrings = {
